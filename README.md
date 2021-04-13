@@ -14,7 +14,6 @@ $$ \min \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+ + \sum\_{g=1}^G \\| \bet
 and the Slope-SVM problem:
 
 $$
-\min \limits_{ \B{\beta} \in \mathbb{R}^p , \ \beta_0 \in \mathbb{R} } 
-\sum \limits_{i=1}^n \left( 1 - y_i( \mathbf{x}\_i^T \B{\beta} + \beta_0  ) \right)_+  + \sum_{j=1}^p \lambda_j | \beta_{(j)} |,
+\min \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+  + \sum_{j=1}^p \lambda_j | \beta_{(j)} |,
 $$
 
