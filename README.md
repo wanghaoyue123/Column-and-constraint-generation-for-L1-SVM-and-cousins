@@ -11,9 +11,6 @@ We consider a family of regularized linear Support Vectors Machines problem with
 <div align=center><img width="600" height="240" src="https://github.com/wanghaoyue123/Column-and-constraint-generation-for-L1-SVM-and-cousins/blob/main/img-formula.png"/>
 
 
-
-![image](https://github.com/wanghaoyue123/Column-and-constraint-generation-for-L1-SVM-and-cousins/blob/main/img-formula.png)
-
 $$\text{L1-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i(x_i^T \beta +\beta_0))_+ + \lambda \\| \beta \\|_1 $$
 
 $$\text{Group-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+ + \sum\_{g=1}^G \\| \beta\_g \\|\_{\infty} $$
