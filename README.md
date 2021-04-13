@@ -7,8 +7,7 @@ This is a solver for L1-SVM and related problems using linear program with colum
 
 We consider a family of regularized linear Support Vectors Machines problem with hinge-loss and convex sparsity-inducing regularization. In particular we study 
 
-
-<div align=center><img width="600" height="240" src="https://github.com/wanghaoyue123/Column-and-constraint-generation-for-L1-SVM-and-cousins/blob/main/img-formula.png"/>
+<img width="600" height="240" src="https://github.com/wanghaoyue123/Column-and-constraint-generation-for-L1-SVM-and-cousins/blob/main/img-formula.png"/>
 
 
 $$\text{L1-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i(x_i^T \beta +\beta_0))_+ + \lambda \\| \beta \\|_1 $$
@@ -37,7 +36,7 @@ See the Main folder for a few examples:
 
 5. example_slope_SVM_n_small_p_large.ipynb: This is an example of Slope-SVM when n is small and p is large. 
 
-</div align=center>
+
 
 
 
