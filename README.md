@@ -14,3 +14,7 @@ $$
 $$
 where $| \beta\_{(1)} | \ge | \beta\_{(2)} | \ge \cdots \ge | \beta\_{(p)} |  $. 
 
+## Examples
+
+1. For n small p large, we use column generation initialized with a first order method. See Main/
+
