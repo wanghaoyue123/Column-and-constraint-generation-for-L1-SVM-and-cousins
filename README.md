@@ -1,1 +1,1 @@
-# Column-generation-for-L1-SVM-and-cousins
+# Column-and-constraint-generation-for-L1-SVM-and-cousins
