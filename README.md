@@ -7,7 +7,7 @@ We consider a family of regularized linear Support Vectors Machines problem with
 
 <img src="http://latex.codecogs.com/gif.latex?\frac{\partial J}{\partial \theta_k^{(j)}}=\sum_{i:r(i,j)=1}{\big((\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\big)x_k^{(i)}}+\lambda \theta_k^{(j)}" />
 
-$$ a+b = \lambda $$
+$$ \min \sum_{i=1}^n \max (0, 1 - y_i * (x_i^T \beta +\beta_0)) + \lambda \| \beta \|_1 $$
 
 
 ```
