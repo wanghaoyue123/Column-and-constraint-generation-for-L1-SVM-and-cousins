@@ -8,7 +8,7 @@ This is a solver for L1-SVM and related problems using linear program with colum
 We consider a family of regularized linear Support Vectors Machines problem with hinge-loss and convex sparsity-inducing regularization. In particular we study 
 
 
-<img width="500" height="200" src="https://github.com/wanghaoyue123/Column-and-constraint-generation-for-L1-SVM-and-cousins/blob/main/img-formula.png"/>
+<img width="600" height="240" src="https://github.com/wanghaoyue123/Column-and-constraint-generation-for-L1-SVM-and-cousins/blob/main/img-formula.png"/>
 
 
 
