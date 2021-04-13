@@ -5,6 +5,8 @@ This is a solver for L1-SVM and related problems using linear program with colum
 
 We consider a family of regularized linear Support Vectors Machines problem with hinge-loss and convex sparsity-inducing regularization. In particular we study 
 
+![](http://latex.codecogs.com/gif.latex?\\\tf_{t,d}=1+log(tf_{t,d}\))
+
 $$\text{L1-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i(x_i^T \beta +\beta_0))_+ + \lambda \\| \beta \\|_1 $$
 
 $$\text{Group-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+ + \sum\_{g=1}^G \\| \beta\_g \\|\_{\infty} $$
@@ -13,6 +15,9 @@ $$
 \text{Slope-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+  + \sum\_{j=1}^p \lambda_j | \beta\_{(j)} |,
 $$
 where $| \beta\_{(1)} | \ge | \beta\_{(2)} | \ge \cdots \ge | \beta\_{(p)} |  $. 
+
+
+
 
 ## Examples
 
