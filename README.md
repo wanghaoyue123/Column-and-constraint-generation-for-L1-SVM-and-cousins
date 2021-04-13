@@ -37,7 +37,7 @@ See the Main folder for a few examples:
 
 5. example_slope_SVM_n_small_p_large.ipynb: This is an example of Slope-SVM when n is small and p is large. 
 
-
+</div align=center>
 
 
 
