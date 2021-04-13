@@ -9,7 +9,7 @@ $$ \min \sum_{i=1}^n (1 - y_i(x_i^T \beta +\beta_0))_+ + \lambda \\| \beta \\|_1
 
 the group-SVM problem:
 
-$$ \min \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+ \sum_{i=1}^n$$
+$$ \min \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+ + \\sum_{i=1}^n$$
 
 ```
 min \sum_{i=1}^n max (0, 1 - y_i * (x_i^T \beta +\beta_0)) + \lambda \sum_{g=1}^G \| \beta_g \|_\inf,
