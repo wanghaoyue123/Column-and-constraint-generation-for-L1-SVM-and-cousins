@@ -1,6 +1,10 @@
+<head>
+
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
+</head>
 
 # Column-and-constraint-generation-for-L1-SVM-and-cousins
 This is a solver for L1-SVM and related problems using linear program with column and constraint generations. For details see https://arxiv.org/abs/1901.01585. 
