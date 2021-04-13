@@ -1,0 +1,11 @@
+README
+spgl1/__init__.py
+spgl1/lsqr.py
+spgl1/oneProjector.py
+spgl1/spgl1.py
+spgl1/spgl_aux.py
+spgl1.egg-info/PKG-INFO
+spgl1.egg-info/SOURCES.txt
+spgl1.egg-info/dependency_links.txt
+spgl1.egg-info/requires.txt
+spgl1.egg-info/top_level.txt
