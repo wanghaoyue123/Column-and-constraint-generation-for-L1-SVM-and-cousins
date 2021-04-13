@@ -16,5 +16,12 @@ where $| \beta\_{(1)} | \ge | \beta\_{(2)} | \ge \cdots \ge | \beta\_{(p)} |  $.
 
 ## Examples
 
-1. For n small p large, we use column generation initialized with a first order method. See Main/example_L1_SVM_n_small_p_large.ipynb
+See the Main folder for a few examples:
+
+1. example_L1_SVM_n_small_p_large.ipynb: This is an example of L1-SVM when n is small and p is large. We use column generation initialized with a first order method.
+
+2. example_L1_SVM_n_large_p_small.ipynb: This is an example of L1-SVM when n is large and p is small. We use constraint generation initialized with a first order method.
+
+
+
 
