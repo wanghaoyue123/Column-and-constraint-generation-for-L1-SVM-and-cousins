@@ -15,6 +15,6 @@ and the Slope-SVM problem:
 
 $$
 \min \limits_{ \B{\beta} \in \mathbb{R}^p , \ \beta_0 \in \mathbb{R} } 
-\sum \limits_{i=1}^n \left( 1 - y_i( \mathbf{x}_i^T \B{\beta} + \beta_0  ) \right)_+  + \sum_{j=1}^p \lambda_j | \beta_{(j)} |,
+\sum \limits_{i=1}^n \left( 1 - y_i( \mathbf{x}\_i^T \B{\beta} + \beta_0  ) \right)_+  + \sum_{j=1}^p \lambda_j | \beta_{(j)} |,
 $$
 
