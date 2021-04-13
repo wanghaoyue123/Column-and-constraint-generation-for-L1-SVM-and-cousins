@@ -13,7 +13,7 @@ $$\text{L1-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i
 $$\text{Group-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+ + \sum\_{g=1}^G \\| \beta\_g \\|\_{\infty} $$
 
 $$
-\text{Slope-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+  + \sum\_{j=1}^p \lambda_j | \beta\_{(j)} |,
+\text{Slope-SVM} ~~~~ \min_{\beta\in R^p, ~\beta_0 \in R} ~ \sum_{i=1}^n (1 - y_i (x_i^T \beta +\beta_0))_+  + \sum\_{j=1}^p \lambda_j | \beta\_{(j)} |
 $$
 where $| \beta\_{(1)} | \ge | \beta\_{(2)} | \ge \cdots \ge | \beta\_{(p)} |  $. 
 
